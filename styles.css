@@ -1,134 +1,203 @@
 body {
-    margin: 0 auto;
-    margin-left: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: rgb(196, 190, 97);
+  background: linear-gradient(0deg, rgba(196, 190, 97, 1) 0%, rgba(196, 231, 225, 1) 100%);
+  margin: 0 auto;
+  margin-left: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+title {
+  font-weight: bold;
+  text-align: center;
+}
 
-table{
-    border-collapse: collapse;
+table {
+  margin-left: 18%;
+  border-collapse: collapse;
+  margin-right: 0;
   /*   border: 1px solid; */
-  }
-  
-  .celula{
-    border: 1px solid;
-    padding:5px;
-     width: 50px;
-    height: 65px; 
-  }
-  
-  .celula2{
-    border: 1px solid;
-    font-size:15px;
-    text-align:center;
-    padding:1px;
-    width: 800px;
-    height: 1px;
-    }
-  
-  .amarelo{
-    background-color:rgb(255, 255, 0);
-    
-  }
-  
-  .aquamarine{
-    background-color:aquamarine;
-    
-  }
-  
-  .aqua{
-    background-color:aqua;
-    
-  }
-  
-  .gray{
-    background-color:rgb(237, 241, 241);
-    
-  }
-  
-  .verde {
-    background-color:green;
-    
-  }
-  
-  .cadetblue {
-    background-color:cadetblue;
-  }
-  
-  .darkviolet {
-    background-color:darkviolet;
-  }
-    
-   .hotpink {
-    background-color:hotpink;
-    
-  }
-  
-  .orange {
-    background-color:rgb(248, 127, 14);
-  }
-  
-  .palegreen {
-    background-color:palegreen;
-  }
-  
-  
-  .salmon {
-    background-color:salmon;
-  }
-  
-  .sandybrown {
-    background-color:sandybrown;
-  }
-  
-  .slategrey {
-    background-color:rgb(198, 203, 207);
-  }
-  
-  .yellowgreen {
-    background-color:yellowgreen;
-  }
-  
-  .numero{
-    font-size:10px;
-    display:block;
-  }
-  
-  .caracter{
-    font-size:15px;
-    display:block;
-    font-weight:border;
-    text-align:right;
-    margin: auto;
-  }
-  
-  .sigla{
-    font-size:36px;
-    font-weight:border;
-    text-align:center;
-    display: block;
-  }
-  
-  .descricao{
-    font-size:10px;
-    text-align:center;
-    display:block;
-    }
-  
-  .padrao{
-  /*   background-color:; */
-    padding:5px;
-    width: 50px;
-    height: 65px;
-  }
-  
-  .titulo{
-    font-size:50px;
-    text-align:center;
-    display:block;
 }
 
-footer{
-      font-size: 20px;
-      text-align: center;
+.celula {
+  border: 1px solid;
+  padding: 5px;
+  width: 50px;
+  height: 65px;
+}
+
+.celula2 {
+  border: 1px solid;
+  font-size: 15px;
+  text-align: center;
+  padding: 1px;
+  width: 800px;
+  height: 1px;
+}
+
+.amarelo {
+  background-color: rgb(255, 255, 0);
+}
+
+.aquamarine {
+  background-color: aquamarine;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+.gray {
+  background-color: rgb(237, 241, 241);
+}
+
+.verde {
+  background-color: green;
+}
+
+.cadetblue {
+  background-color: cadetblue;
+}
+
+.darkviolet {
+  background-color: darkviolet;
+}
+
+.hotpink {
+  background-color: hotpink;
+}
+
+.orange {
+  background-color: rgb(248, 127, 14);
+}
+
+.palegreen {
+  background-color: cadetblue;
+}
+
+.salmon {
+  background-color: salmon;
+}
+
+.sandybrown {
+  background-color: sandybrown;
+}
+
+.slategrey {
+  background-color: rgb(198, 203, 207);
+}
+
+.yellowgreen {
+  background-color: yellowgreen;
+}
+
+.numero {
+  font-size: 10px;
+  display: block;
+}
+
+.caracter {
+  font-size: 15px;
+  display: block;
+  font-weight: border;
+  text-align: right;
+  margin: auto;
+}
+
+.sigla {
+  font-size: 36px;
+  font-weight: border;
+  text-align: center;
+  display: block;
+}
+
+.descricao {
+  font-size: 10px;
+  text-align: center;
+  display: block;
+}
+
+.padrao {
+  /*   background-color:; */
+  padding: 5px;
+  width: 50px;
+  height: 65px;
+}
+
+.titulo {
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+
+.nonmetals {
+  background-color:cadetblue ;
+}
+
+.alkali-metals {
+  background-color:  darkviolet;
+}
+
+.alkaline-metals {
+  background-color: hotpink ;
+}
+
+.other-metals {
+  background-color: rgb(255, 255, 0);
+}
+
+.transition-metals {
+  background-color:rgb(248, 127, 14); ;
+}
+
+.lanthanoids {
+  background-color: sandybrown ;
+}
+
+.actinoids {
+  background-color:salmon;
+}
+
+.metalloids {
+  background-color: yellowgreen ;
+}
+
+.halogens {
+  background-color: aquamarine ;
+}
+
+.noble-gases {
+  background-color: aqua ;
+}
+
+.unknown-elements {
+  background-color: #90a4ae ;
+}
+
+/**
+ * Legend list
+ */
+.legend {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  max-width: 55rem;
+}
+
+.legend li {
+  display: flex;
+  padding: 0.25rem 0;
+}
+
+.legend li span {
+  border: 1px solid;
+  margin-right: 0.25rem;
+  height: 1em;
+  width: 1em;
+}
+
+
+footer {
+  font-size: 20px;
+  text-align: center;
 }
