@@ -129,6 +129,8 @@ table {
   display: block;
 }
 
+
+
 .nonmetals {
   background-color:cadetblue ;
 }
@@ -170,13 +172,16 @@ table {
 }
 
 .unknown-elements {
-  background-color: #90a4ae ;
+  background-color: rgb(198, 203, 207); ;
 }
 
 /**
  * Legend list
  */
 .legend {
+  margin: 20px 10px;
+  
+  margin-left: 20%;
   list-style-type: none;
   padding: 0;
   display: grid;
