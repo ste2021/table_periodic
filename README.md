@@ -1,4 +1,4 @@
-# Tabela Periódica usando HTML5/CSS
+# Periodic Table using pure HTML & CSS
 
-## [Acesse aqui](https://ste2021.github.io/table_periodic/)
+## [Click Here to go to the page](https://ste2021.github.io/table_periodic/)
 
